@@ -12,4 +12,7 @@ Para ultilizar o git na minha maquina eu preciso configurar determinados comando
 
 ´´´bash 
 git config --global 
+## Como configurar GitHub
+## SSH - Como configurar a maquina para GitHub
 
+## Como
