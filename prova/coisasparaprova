@@ -1,0 +1,8 @@
+//function gel elemente
+
+
+
+
+
+const buttonExercicio5 = document.getElementById("exercicio5")
+buttonExercicio5.addEventListener('click', () => {exercicio5()})

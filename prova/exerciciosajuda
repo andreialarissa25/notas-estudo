@@ -1,0 +1,19 @@
+function exercicio2() {
+    alert("teste exercicio2")
+    const valorHora = Number (prompt("digite o valor da"))
+    const horaTrabalhada =Number(prompt("Digite as horas trabalhadas"))
+    
+    const resultado =valorHora + horaTrabalhada
+    
+    alert("seu salario é+resultado")
+
+}
+const buttonExercicio2 = document.getElementById("exercicio2")
+buttonExercicio2.addEventListener('click', () => {exercicio2()})
+
+
+
+// Identificar Variaveis + ValorHora e HorasTrabalhadas 
+    // Identificar Funcoes para serem ultilizadas - Alert, Prompt
+    // Identificar a operacao a ser realizada 
+
