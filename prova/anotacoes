@@ -1,0 +1,59 @@
+REVISAO PROVA 23/03
+html= criar
+css= enfeitar
+js= faz funcionar,algo acontecer
+
+alert= serve para exibir alguma mensagem
+nao recebe resposta
+bloqueia a tela ate o usuario confirmar
+ideal para exemplos simples e aprendizado
+
+prompt= pedir uma informacao e a variavel que vem antes dele serve para armazenar essa informacao
+ele ira nos permitir realizar duas funcoes: 
+mostrar uma pergunta
+receber uma resposta do usuario
+
+PROMPT+VARIAVEIS
+aqui nasce algo poderoso; guarda respostas 
+(o valor digitado pode ser armazenado)
+(variaveis passam a ter significado real)
+(o codigo comeca a reagir ao usuario)
+sem varial, a resposta se perde 
+
+MANIPULACAO DO DOM
+getElementById
+funcao: retorna uma referencia ao elemento pelo seu id 
+uso principal: selecionar elementos unicos em uma pag para manipulacao ou leitura de dados
+ 
+ ex: const element = document.getElementById('my-element');
+ element.style.color= 'blue';
+
+ createElement
+ funcao: criar um novo elemento HTML 
+ USO PRINCIPAL; adicionar novos elementos a pagina 
+
+ CLICK 
+ const button= document.getElementById('my-button');
+ 
+
+
+
+
+
+ if/
+ O IF E ELSE SAO ESTRUTURAS CONDICIONAIS QUE PERMITEM EXECUTAR DIFERENTES BLOCOS DE CODIGO COM BASE EM UMA CONDICAO OU EXPRESSAO BOOLEANA!!
+
+ //If/ Else If/ Else//
+ alem disso, tambem e possivel ultilizar multiplas estruturas if aninhadas para verificar varias condicoes consecutivas ou usar estrutura else if para adicionar condicoes intermediarias 
+ estrutura; 
+ let ocupado = 2
+
+ if(ocupado ==1){
+    console.log("ocupado")
+ }else if (ocupado == 2){
+    console.log("reservado");
+ }else {
+    console.log("livre");
+ }
+
+,

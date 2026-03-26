@@ -1,49 +1,129 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=scrift, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <title>Document</title>
-    
+//exercicio1
+
+function exercicio1() {
+const numero = Number(prompt ("digite um numero"))
+const outronumero = Number(prompt ("Digite outro"))
+alert(numero+outronumero)
+ }
+ const buttonExercicio1 = document.getElementById("exercicio1")
+buttonExercicio1.addEventListener('click', () => {exercicio1()})
+
+// exercicio 2 
  
-</head>
-<body> 
-    1
-<header id="exemplo" > 
-     um titulo qualquer
-</header
+function exercicio2() {
+    alert("teste exercicio2")
+    const valorHora = Number (prompt("digite o valor da"))
+    const horaTrabalhada =Number(prompt("Digite as horas trabalhadas"))
+    
+    const resultado =valorHora + horaTrabalhada
+    
+    alert("seu salario é+resultado")
 
-><main>
-    <h2>Minha pagina de exercicios </h2>
-    <button id="exercicio1">Executar Exercicio 1</button>
-    <button id="exercicio2">Executar Exercicio 2</button>
-    <button id="exercicio3">Executar Exercicio 3</button>
-    <button id="exercicio4">Executar Exercicio 4</button>
-    <button id="exercicio5">Executar Exercicio 5</button>
-    <button id="exercicio6">Executar Exercicio 6</button>
-    <button id="exercicio7">Executar Exercicio 7</button>
-    <button id="exercicio8">Executar Exercicio 8</button>
-    <button id="exercicio9">Executar Exercicio 9</button>
-    <button id="exercicio10">Executar Exercicio 10</button>
-    <button id="exercicio8">Executar Exercicio 11</button>
-    <button id="exercicio9">Executar Exercicio 12</button>
-    <button id="exercicio9">Executar Exercicio 13</button>
+}
+const buttonExercicio2 = document.getElementById("exercicio2")
+buttonExercicio2.addEventListener('click', () => {exercicio2()})
 
-</main>
+// exercicio 3 
+ 
+function exercicio3() {
+const pessoa1 = Number
+const peso2 = Number(prompt("Digite o peso da pessoa 2: "))
+const peso3 = Number(prompt("Digite o peso da pessoa 3: "))
+const peso4 = Number(prompt("Digite o peso da pessoa 4: "))
+const peso5 = Number(prompt("Digite o peso da pessoa 5: "))
+alert ((peso1 + peso2 + peso3 + peso4 + peso5)/5)
+}
+const buttonExercicio3 = document.getElementById("exercicio3")
+buttonExercicio3.addEventListener('click', () => {exercicio3()})
 
-</main>
-<footer id="rodape" >
-    todos direitos reservados- andreia 2026
+// exercicio 4
+function exercicio4() {
+const celsios = Number (prompt("digite valor celcios"))
+alert ((9 * celsios + 160) /5) = Number
+}
+const buttonExercicio4 = document.getElementById("exercicio4")
+buttonExercicio4.addEventListener('click', () => {exercicio4()})
 
-</footer>
-<script src=" ./script/geral.js"></script>
-<body>
+// exercicio 5
+function exercicio5() {
+     const kilometro = Number(prompt("ponha a kilometragem"))
+     alert ((kilometro*1.6093))
+}
+const buttonExercicio5 = document.getElementById("exercicio5")
+buttonExercicio5.addEventListener('click', () => {exercicio5()})
 
-</body>
-</html>
+// exercicio 6
+function exercicio6() {
+const segundos = Number(prompt("ponha a duracao em segundos"))
+const resultadoSeg = 1/segundos
+alert (resultadoSeg)
+const resultadoMin = segundos/60 
+alert(resultadoMin)
+const resultadoHr = resultadoMin/60 
+alert (resultadoHr)
+}
+const buttonExercicio6 = document.getElementById("exercicio6")
+buttonExercicio6.addEventListener('click', () => {exercicio6()})
 
-// Não uar ESPAÇO, ACENTO, Ç, @#$%¨&*!"
+//exercicios 7
+function exercicio7() {
+const km = Number(prompt("Digite a distancia em km"))
+const resultado1 = (km*1000)
+alert (resultado1)
+const resultado2 = (km*100000)
+alert(resultado2)
+}
+const buttonExercicio7 = document.getElementById("exercicio7")
+buttonExercicio7.addEventListener('click', () => {exercicio7()})
+  
+
+// exercicio 8
+function exercicio8() {
+const numero = Number (prompt("digite um numero"))
+alert (numero*0)
+alert (numero*1)
+alert (numero*2)
+alert (numero*3)
+alert (numero*4)
+alert (numero*5)
+alert (numero*6)
+alert (numero*7)
+alert (numero*8)
+alert (numero*9)
+alert (numero*10)
+}
+const buttonExercicio8 = document.getElementById("exercicio8")
+buttonExercicio8.addEventListener('click', () => {exercicio8()})
+
+// exercicio 9 
+function exercicio9() {
+const nota1 = Number(prompt("Digite a primeira nota"))
+const nota2 = Number(prompt("Digite a segunda nota"))
+const nota3 = Number(prompt("Digite a terceira nota"))
+
+const media = (nota1 + nota2 + nota3) / 3
+console.log(media)
+
+if (media < 5) {
+    alert("Reprovado")
+} else if (media >= 5 && media < 7) {
+    alert("Recuperação")
+} else if (media >= 7 ) {
+    alert("aprovado")
+} 
+}
+const buttonExercicio10 = document.getElementById("exercicio10")
+buttonExercicio10.addEventListener('click', () => {exercicio10()})
+
+// exercicio 10 
+function exercicio10 (){
+const sexo= ("digite seu sexo H-homem M-mulher")
+const altura= Number("digite")
+
+
+}
+
+/ Não uar ESPAÇO, ACENTO, Ç, @#$%¨&*!"
 // const nomeCompleto
 // const NomeCompleto
 // const nome_completo
